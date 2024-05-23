@@ -6,7 +6,6 @@ cd marketlauralist
 npm i
 
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
-npx expo install react-dom react-native-web @expo/metro-runtime
 npx expo start --localhost --android
 
 Configurar o Router:
@@ -19,6 +18,8 @@ Configurar o Router:
 Criar uma pasta scr 
 
 Dentro dela criar uma pasta app
+
+npx expo install @react-native-async-storage/async-storage
 
 
 
